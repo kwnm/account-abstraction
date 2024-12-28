@@ -1,0 +1,43 @@
+{
+  "name": "accountabstraction",
+  "version": "0.7.0",
+  "description": "ERC-4337 Account Abstraction Implementation",
+  "scripts": {
+    "clean": "rm -rf cache artifacts typechain typechain-types",
+    "compile": "hardhat compile",
+    "tsc": "tsc",
+    "runop": "hardhat run scripts/runop.ts",
+    "createAccount": "hardhat run scripts/createAccount.ts",
+    "fundAccount": "hardhat run scripts/fundAccount.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typechain/ethers-v5": "^10.1.0",
+    "@types/node": "^16.4.12",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "@uniswap/v3-periphery": "^1.4.3",
+    "eslint": "^8.19.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "ethers": "^5.4.2",
+    "hardhat": "^2.17.2",
+    "ts-node": "^10.1.0",
+    "typechain": "^8.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.0",
+    "@typechain/hardhat": "^2.3.0",
+    "dotenv": "^16.4.7",
+    "ethereumjs-util": "^7.1.0",
+    "express": "^4.21.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "typescript": "^4.3.5",
+    "web3": "^4.16.0"
+  }
+}
